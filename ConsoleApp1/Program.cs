@@ -15,6 +15,6 @@ class Program
             .Concat(new List<C> { new C() })
             .ToArray();
 
-        Console.WriteLine(string.Join(' ', results));
+        Console.WriteLine(string.Join(" ", results));
     }
 }
